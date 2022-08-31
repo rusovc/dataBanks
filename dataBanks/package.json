@@ -1,0 +1,17 @@
+{
+  "name": "dataBanks",
+  "version": "1.0.0",
+  "description": "Парсинг данных банков с сайта Банка России (явлется тестовым заданием для устройства на работу)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --optimize_for_size --max_old_space_size=920 --gc_interval=100 index.js"
+  },
+  "author": "Руслан Овчинников <rusovc069@gmail.com>",
+  "license": "CC BY-NC 4.0",
+  "dependencies": {
+    "adm-zip": "^0.5.9",
+    "iconv-lite": "^0.6.3",
+    "node-fetch": "^3.2.10"
+  }
+}
